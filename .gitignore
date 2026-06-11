@@ -216,3 +216,12 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Entorno virtual
+.venv/
+venv/
+
+# Persistencia local de ChromaDB (Base de datos embebida)
+chroma_data/
+*.sqlite3
+*.sqlite
