@@ -1,9 +1,9 @@
 # 🚀 TP N°8: Bases de Datos Vectoriales
 
-**Institución:** Instituto Superior de Formación Técnica N° 151
-**Carrera:** Tecnicatura Superior de Análisis de Sistemas
-**Cátedra:** Base de Datos
-**Tema:** Introducción a Bases de Datos Vectoriales
+**Institución:** Instituto Superior de Formación Técnica N° 151  
+**Carrera:** Tecnicatura Superior de Análisis de Sistemas  
+**Cátedra:** Base de Datos  
+**Tema:** Introducción a Bases de Datos Vectoriales  
 **Alumno:** David Hernán Bravo
 
 ---
