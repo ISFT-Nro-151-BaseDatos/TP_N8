@@ -28,22 +28,30 @@ cd "D:\Repositorios de GitHub\ISFT N°151\Base de Datos\Trabajos Prácticos\TP_N
 ### 2️⃣ Creación y Activación del Entorno Virtual
 Para no contaminar el entorno global del sistema operativo y mantener la portabilidad del proyecto:
 
+```bash
 python -m venv .venv
+```
 
 ### Activación en CMD de Windows:
 
+```bash
 .\.venv\Scripts\activate.bat
+```
 
 ### 3️⃣ Instalación de Dependencias
 Actualizamos los empaquetadores (crítico por el uso de Python 3.14) e instalamos el motor vectorial:
 
+```bash
 python -m pip install --upgrade pip setuptools wheel
 pip install chromadb
+```
 
 ### 4️⃣ Ejecución de la Prueba de Concepto
 El script app.py inicializa la base de datos persistente de forma local (en la carpeta chroma_data/), ingesta un lote de documentos de prueba y realiza una consulta semántica por proximidad geométrica.
 
+```bash
 python app.py
+```
 
 ### 🖥️ Resultado Esperado en Consola
 Al ejecutar el script, el sistema vectoriza los documentos y, ante la consulta "Necesito almacenar embeddings de alta dimensionalidad", devuelve el registro matemáticamente más cercano:
@@ -70,10 +78,7 @@ Los binarios de la base de datos embebida (chroma_data/) y los archivos del ento
 
 ### 📚 Referencias
 
-Amazon Web Services (AWS) - ¿Qué es una base de datos vectorial?
-
-IBM - Bases de datos vectoriales
-
-ChromaDB - Documentación Oficial
-
-Medium - Vector Databases: A Beginner’s Guide
+* Amazon Web Services (AWS) - ¿Qué es una base de datos vectorial?
+* IBM - Bases de datos vectoriales
+* ChromaDB - Documentación Oficial
+* Medium - Vector Databases: A Beginner’s Guide
